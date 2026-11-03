@@ -5,7 +5,8 @@ import { createI18n } from 'vue-i18n';
 
 const i18n = createI18n({
   legacy: false,
-  locale: 'en',
+  // Start in Chinese; App.vue persists a user's explicit locale choice.
+  locale: 'zh',
   messages,
 });
 
